@@ -1,0 +1,14 @@
+h1{color:blue;
+   font-family:arial;}
+p{font-weight:bold;
+  /*text-decoration:underline;
+  text-decoration:line-through;*/
+  text-decoration:overline;/* underline,line-through*/
+}
+/*#chennai{color:red;}*/
+/*#velachery{color:green}*/
+/*#velachery{font-size:20px;}*/
+.chennai{color:red;}
+.velachery{font-size:20px;}
+p[name="tam"]{color:green;}
+

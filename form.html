@@ -1,0 +1,87 @@
+<head>
+<title>my site</title>
+<style>
+table{border:5px solid red;
+      background-color:#64DC56;
+	  width:600px;
+	  height:600px;
+	  padding:5px;
+	  outline:5px solid #0E038B;
+	  outline-offset:3px;
+	  background-color:#FDF971;
+	  
+	  }
+th,td{ border:1px solid blue;font-size:20px;color:blue;font-weight:bold;
+       text-align:center;}
+input,select,button{width:350px;heighht:40px;margin-left:10px;}
+input[type="radio"],input[type="checkbox"]{width:20px;height:20px;}
+ 
+
+ 
+	  
+	  
+
+</style>
+</head>
+<body>
+
+<center>
+<form>
+<table align="center">
+<colgroup>
+<col style="text-align:left; width:200px;">
+
+
+
+</colgroup>
+<tr><td colspan="2" style="text-align:center;">application form</td></tr>
+<tr><td>name</td><td><input type="text"></td></tr>
+<tr><td>mobile</td><td><input type="number" required></td></tr>
+<tr><td>email</td><td><input type="email"></td></tr>
+<tr><td>password</td><td><input type="password"></td></tr>
+<tr><td>dob</td><td><input type="date"></td></tr>
+<tr><td>gender</td><td>male<input type="radio" name="x">female<input type="radio" name="x"></td></tr>
+<tr><td>language</td><td>malayalam<input type="checkbox">english<input type="checkbox">german<input type="checkbox"></td></tr>
+<tr><td>course</td><td><select>
+                         <option>php</option>
+                         <option>html</option>
+                         <option>css</option>
+                         <option>javascript</option>
+                         <option>jquery</option>
+                         <option>mysql</option>
+                         <option>python</option>
+                         <option>angular</option>
+
+
+
+
+</select></td></tr>
+<tr><td>district</td><td><input list="dist">
+
+                                   <datalist id="dist">
+								   <option>tvm</option>
+                                   <option>klm</option>
+                                   <option>alp</option>
+                                   <option>ktm</option>
+                                   <option>idk</option>
+                                   <option>ekm</option>
+                                   <option>pkd</option>
+                                   <option>knr</optio
+
+
+
+                                   </datalist>
+</input></td></tr>
+<tr><td colspan="2" style="text-align:center;"><button>submit</button></td></tr>
+
+
+
+
+
+
+
+</table>
+</form>
+</center>
+</body>
+</html>

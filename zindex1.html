@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+li{border:1px solid blue;
+   width:200px;
+   text-align:center;
+   background-color:green;
+   color:white;
+   height:40px;
+   padding-top:8px;
+   box-sizing:border-box;
+   float:left;}
+li:hover{border:1px solid blue;
+   width:200px;
+   text-align:center;
+   background-color:blue;
+   color:white;
+   height:40px;
+   padding-top:8px;
+   box-sizing:border-box;
+   float:left;}
+   ul ul{margin-top:12px;
+         margin-left:-40px;
+		 display:none;}
+   ul li:hover ul{display:block;}
+   #data{display:none;}
+   #php:hover #data{display:block;} 
+   a{color:white;
+     text-decoration:none;}   
+</style>
+</head>
+<body>
+<h2 style="color:blue;">html and css dropdown menu</h2>
+<div style="border:1px solid blue; height:60px;">
+<ul type="none">
+<li>home</li>
+<li>about</li>
+<li>course
+  <ul>
+  <li><a href="https://docs.oracle.com/javase/tutorial/collections/intro/index.html">java</a></li>
+  <li id="php">PHP
+  <ul id="data" style="margin-left:158px;
+      margin-top:-20px;" type="none">
+  </li>	  
+  <li>operators</li>
+  <li>oops</li>
+  <li>database</li>
+  </ul>
+  
+  </li>
+  <li>webdesigning</li>
+  <li>python</li>
+  
+  </ul>
+
+</li>
+<li>language</li>
+</ul>
+</div style="border:1px solid blue; height:60px;">
+<p style="background-color:black; color:white;
+   position:absolute; z-index:1;">
+ The Self-Respect Movement is a South Asian movement with the aim
+ of achieving a society in which backward castes have equal human rights,
+ [1] and encouraging backward castes to have self-respect in the context 
+ of a caste-based society that considered them to be a lower end of the hierarchy.
+ 
+  It was founded in 1925 by S. Ramanathan[3] who invited E. V. Ramasamy
+  (also known as Periyar by his followers) to head the movement in Tamil Nadu
+  India against Brahminism. The movement was extremely influential not just
+  in Tamil Nadu, but also overseas in countries with large Tamil populations,
+  such as Malaysia and Singapore. 
+  
+  Among Singapore Indians, groups like the Tamil
+  Reform Association, and leaders such as Thamizhavel G. Sarangapani were prominent 
+  in promoting the principles of the
+  Self-Respect Movement among the local Tamil population through schools and publications
+</p>
+</body>
+</html>

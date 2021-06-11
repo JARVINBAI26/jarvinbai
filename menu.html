@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+li{border:1px solid blue;
+   width:200px;
+   text-align:center;
+   background-color:green;
+   color:white;
+   height:40px;
+   padding-top:8px;
+   box-sizing:border-box;
+   float:left;}
+li:hover{border:1px solid blue;
+   width:200px;
+   text-align:center;
+   background-color:blue;
+   color:white;
+   height:40px;
+   padding-top:8px;
+   box-sizing:border-box;
+   float:left;}
+   ul ul{margin-top:12px;
+         margin-left:-40px;
+		 display:none;}
+   ul li:hover ul{display:block;}
+   #data{display:none;}
+   #php:hover #data{display:block;} 
+   a{color:white;
+     text-decoration:none;}   
+</style>
+</head>
+<body>
+<h2 style="color:blue;">html and css dropdown menu</h2>
+<ul type="none">
+<li>home</li>
+<li>about</li>
+<li>course
+  <ul>
+  <li><a href="https://docs.oracle.com/javase/tutorial/collections/intro/index.html">java</a></li>
+  <li id="php">PHP
+  <ul id="data" style="margin-left:158px;
+      margin-top:-20px;" type="none">
+  </li>	  
+  <li>operators</li>
+  <li>oops</li>
+  <li>database</li>
+  </ul>
+  
+  </li>
+  <li>webdesigning</li>
+  <li>python</li>
+  
+  </ul>
+
+</li>
+<li>language</li>
+</ul>
+</body>
+</html>

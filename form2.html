@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+table{border:5px solid red;
+      width:600px;
+      height:600px;
+	  background-color:yellow;}
+th,td{border:5px solid blue;
+      font-size:20px;
+	  color:blue;
+	  font-weight:bold;
+	  text-align:center;
+      }
+	  input,select,button{width:350px;margin-left:10px;height:40px;}
+	  input[type="radio"],input[type="checkbox"]{width:20px;height:20px;}
+</style>
+</head>
+<body>
+<form>
+<table align="center">
+<tr><th colspan="2" text-align="center">application form</th></tr>
+<tr><td>user name</td><td><input type="text"></td></tr>
+<tr><td>password</td><td><input type="password"></td></tr>
+<tr><td>phno</td><td><input type="number" required></td></tr>
+<tr><td>dob</td><td><input type="date"></td></tr>
+<tr><td>gender </td><td>male<input type="radio" name="x">female<input type="radio" name="x"></td></tr>
+<tr><td>language</td><td>english<input type="checkbox">malayalam<input type="checkbox">german<input type="checkbox"></td></tr>
+<tr><td>interest</td><td><select>
+<option>html</option>
+<option>css</option>
+<option>javascript</option>
+<option>jquery</option>
+<option>bootstrap</option>
+<option>python</option>
+<option>django</option>
+<option>mysql</option>
+
+
+
+
+
+
+</select></td></tr>
+<tr><td>district</td><td><input list="dist">
+<datalist id="dist">
+<option>tvm</option>
+<option>klm</option>
+<option>alp</option>
+<option>idk</option>
+<option>ekm</option>
+
+</datalist>
+
+
+</input></td></tr>
+<tr><td colspan="2" text-align="center"><button>submit</button></td></tr>
+</table>
+</form>
+</body>
+
+</html>
